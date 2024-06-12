@@ -1,6 +1,10 @@
- const Button=()=>{
+ const ButtonComponents=(prop)=>{
+    console.log(prop)
+    const{text,textcolor="yellow",onSmash}=prop
     return(
-        <button>login</button>
+        <button 
+        style={{color:textcolor ,backgroundcolor:"grean"}}
+         onClick={onSmash}>{text}</button>
     )
 }
-export default Button
+export default ButtonComponents

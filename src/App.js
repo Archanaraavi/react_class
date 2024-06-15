@@ -23,8 +23,21 @@
  //import YoutubeButton from "./components/youtubeButton/youtubeButton"
  //import YoutubeButton from "./components/youtubeButton/youtubeButton";
 
-import Card from "./components/cards/cards.js"
-import ProfileComponent from "./components/profile/profile.js";
+//import Card from "./components/cards/cards.js"
+//import Uncontrolledform from "./components/forms/uncontrolled.js";
+//import ControlledForm from "./components/forms/controlled.js";
+import UseEffect from "./components/categories/categories.js";
+import ProductListing from "./components/products/products.js";
+import Navigationsstack from "./components/screens/navigations stack.js";
+import Navigations from "./components/screens/navigations.js";
+//import Product from "./components/products/products.js";
+
+//import Funpra from "./components/funpra/funpra.js"
+
+//import Funtodos from "./components/functional todo/functional todo.js";
+//import Funtodo from "./components/functional todo/functional todo.js";
+// import ProfileComponent from "./components/profile/profile.js";
+// import Todos from "./components/todo/todo.js";
 
 //import ProductListing from "./components/ProductListing/ProductListing.js"
  function Hello(){
@@ -32,8 +45,16 @@ import ProfileComponent from "./components/profile/profile.js";
 <>
 {/* <ProductListing/>  */}
  {/* <Card/> */}
- <ProfileComponent/>
+ {/* <ProfileComponent/> */}
 {/* <CircleGenerator/> */}
+{/* <Funpra/> */}
+{/* <ControlledForm/> */}
+{/* <Uncontrolledform/> */}
+{/* <ProductListing/> */}
+ {/* <Navigations/>  */}
+ <Navigationsstack/>
+{/* <UseEffect/> */}
+{/*<Funtodos/>*/}
 </>
   )
  }

@@ -1,0 +1,75 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+h3 {
+    color: #666;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.product:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.product p {
+    font-size: 14px;
+    color: #777;
+}
